@@ -1,0 +1,13 @@
+.flexprop{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.b-ground{
+    background: url("https://e0.pxfuel.com/wallpapers/497/150/desktop-wallpaper-hopped-the-original-background-if-you-want-to-use-whatsapp-dark-mode-go-to-settings-chats-background-and-use-this-r-whatsapp.jpg");
+    ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}

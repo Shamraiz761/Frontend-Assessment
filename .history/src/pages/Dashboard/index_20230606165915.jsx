@@ -1,0 +1,23 @@
+import React from "react";
+import dashboard from "../../assets/images/Rectangle 29852.png";
+import profile from "../../assets/images/Ellipse 1631.png";
+
+function Home() {
+  return (
+    <div className="m-5 h-72 bg-white">
+      <div
+        className="absolute top-0 w-full h-full bg-center bg-cover"
+        style="
+            background-image: url('https://images.unsplash.com/photo-1499336315816-097655dcfbda?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=2710&amp;q=80');
+          "
+      >
+        <span
+          id="blackOverlay"
+          className="w-full h-full absolute opacity-50 bg-black"
+        ></span>
+      </div>
+    </div>
+  );
+}
+
+export default Home;
